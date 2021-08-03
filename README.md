@@ -4,6 +4,12 @@ git remote set-url origin git@github.com:Cristina-MariaG/express-react.git
 
 ---
 
+wip
+
 Apprentisage des technologies react,express,github,git
 
 Creation d'un blog
+
+## TODO :
+
+Tout est à faire
