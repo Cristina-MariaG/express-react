@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
 const dotenv = require('dotenv');
+const { options } = require('./routes/api/users');
 dotenv.config();
 //Routing
+
+app.use(express.json({ extended: false }));
 
 //localhost:5000/api/users/reqister
 //localhost:5000/api/users ---pour index
